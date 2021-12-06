@@ -3,8 +3,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 /** 
- * Класс для демонстрации данных в List
- * @author Суховеркова Екатерина (3 курс 3 группа)
+ * РљР»Р°СЃСЃ РґР»СЏ РґРµРјРѕРЅСЃС‚СЂР°С†РёРё РґР°РЅРЅС‹С… РІ List
+ * @author РЎСѓС…РѕРІРµСЂРєРѕРІР° Р•РєР°С‚РµСЂРёРЅР° (3 РєСѓСЂСЃ 3 РіСЂСѓРїРїР°)
 */
 public class ListInfoDemonstration {
 
