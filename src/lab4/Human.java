@@ -1,30 +1,30 @@
 package lab4;
 
 /** 
- * Класс сущности Human
- * @author Суховеркова Екатерина (3 курс 3 группа)
+ * РљР»Р°СЃСЃ СЃСѓС‰РЅРѕСЃС‚Рё Human
+ * @author РЎСѓС…РѕРІРµСЂРєРѕРІР° Р•РєР°С‚РµСЂРёРЅР° (3 РєСѓСЂСЃ 3 РіСЂСѓРїРїР°)
 */
 public class Human {
-	/** Поле id */
+	/** РџРѕР»Рµ id */
 	private int id;
-	/** Поле имени */
+	/** РџРѕР»Рµ РёРјРµРЅРё */
 	private String name;
-	/** Поле пола */
+	/** РџРѕР»Рµ РїРѕР»Р° */
 	private String gender;
-	/** Поле подразделения */
+	/** РџРѕР»Рµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ */
 	private Division div;
-	/** Поле зарплаты */
+	/** РџРѕР»Рµ Р·Р°СЂРїР»Р°С‚С‹ */
 	private int salary;
-	/** Поле даты рождения */
+	/** РџРѕР»Рµ РґР°С‚С‹ СЂРѕР¶РґРµРЅРёСЏ */
 	private String birthDate;
 	/**
-     * Конструктор
+     * РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
      * @param id - id
-     * @param name - имя
-     * @param gender - пол
-     * @param div - подразделение
-     * @param salary - зарплата
-     * @param birthDate - дата рождения
+     * @param name - РёРјСЏ
+     * @param gender - РїРѕР»
+     * @param div - РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ
+     * @param salary - Р·Р°СЂРїР»Р°С‚Р°
+     * @param birthDate - РґР°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
      */
 	public Human(int id, String name, String gender, Division div, int salary, String birthDate) {
 		this.id = id;
@@ -35,43 +35,43 @@ public class Human {
 		this.birthDate = birthDate;
 	}
 	/**
-     * Метод получения id {@link Human#id}
-     * @return возвращает id
+     * РњРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ id {@link Human#id}
+     * @return РІРѕР·РІСЂР°С‰Р°РµС‚ id
      */
 	public int getID() {
 		return this.id;
 	}
 	/**
-     * Метод получения имени {@link Human#name}
-     * @return возвращает имя
+     * РњРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ РёРјРµРЅРё {@link Human#name}
+     * @return РІРѕР·РІСЂР°С‰Р°РµС‚ РёРјСЏ
      */
 	public String getName() {
 		return this.name;
 	}
 	/**
-     * Метод получения пола {@link Human#gender}
-     * @return возвращает пол
+     * РњРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ РїРѕР»Р° {@link Human#gender}
+     * @return РІРѕР·РІСЂР°С‰Р°РµС‚ РїРѕР»
      */
 	public String getGender() {
 		return this.gender;
 	}
 	/**
-     * Метод получения данных о подразделении {@link Human#div}
-     * @return возвращает id и название подразделения
+     * РњРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ РґР°РЅРЅС‹С… Рѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё {@link Human#div}
+     * @return РІРѕР·РІСЂР°С‰Р°РµС‚ id Рё РЅР°Р·РІР°РЅРёРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
      */
 	public Division getDiv() {
 		return this.div;
 	}
 	/**
-     * Метод получения зарплаты {@link Human#salary}
-     * @return возвращает зарплату
+     * РњРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ Р·Р°СЂРїР»Р°С‚С‹ {@link Human#salary}
+     * @return РІРѕР·РІСЂР°С‰Р°РµС‚ Р·Р°СЂРїР»Р°С‚Сѓ
      */
 	public int getSalary() {
 		return this.salary;
 	}
 	/**
-     * Метод получения даты рождения {@link Human#birthDate}
-     * @return возвращает дату рождения
+     * РњРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ РґР°С‚С‹ СЂРѕР¶РґРµРЅРёСЏ {@link Human#birthDate}
+     * @return РІРѕР·РІСЂР°С‰Р°РµС‚ РґР°С‚Сѓ СЂРѕР¶РґРµРЅРёСЏ
      */
 	public String getBirthDate() {
 		return this.birthDate;
