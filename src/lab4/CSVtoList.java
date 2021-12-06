@@ -6,14 +6,14 @@ import java.util.List;
 
 import com.opencsv.CSVReader;
 /** 
- * Класс преобразования данных csv в List
- * @author Суховеркова Екатерина (3 курс 3 группа)
+ * РљР»Р°СЃСЃ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ РґР°РЅРЅС‹С… csv РІ List
+ * @author РЎСѓС…РѕРІРµСЂРєРѕРІР° Р•РєР°С‚РµСЂРёРЅР° (3 РєСѓСЂСЃ 3 РіСЂСѓРїРїР°)
 */
 public class CSVtoList {
 	/**
-     * Метод преобразования данных csv в List
-     * @param csvFilePath - путь к файлу csv
-     * @return возвращает список типа Human
+     * РњРµС‚РѕРґ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ РґР°РЅРЅС‹С… csv РІ List
+     * @param csvFilePath - РїСѓС‚СЊ Рє С„Р°Р№Р»Сѓ csv
+     * @return РІРѕР·РІСЂР°С‰Р°РµС‚ СЃРїРёСЃРѕРє С‚РёРїР° Human
      */
 	public List<Human> read(String csvFilePath) throws IOException {
 		try {
