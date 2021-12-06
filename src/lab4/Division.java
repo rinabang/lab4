@@ -1,31 +1,31 @@
 package lab4;
 /** 
- * Класс сущности Division
- * @author Суховеркова Екатерина (3 курс 3 группа)
+ * РљР»Р°СЃСЃ СЃСѓС‰РЅРѕСЃС‚Рё Division
+ * @author РЎСѓС…РѕРІРµСЂРєРѕРІР° Р•РєР°С‚РµСЂРёРЅР° (3 РєСѓСЂСЃ 3 РіСЂСѓРїРїР°)
 */
 public class Division {
-	/** Поле id подразделения */
+	/** РџРѕР»Рµ id РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ */
 	private int id;
-	/** Поле названия */
+	/** РџРѕР»Рµ РЅР°Р·РІР°РЅРёСЏ */
 	private String title;
 	/**
-     * Конструктор
-     * @param title - название
+     * РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
+     * @param title - РЅР°Р·РІР°РЅРёРµ
      */
 	public Division(String title) {
 		this.id = 100 + (int) title.toCharArray()[0];
 		this.title = title;
 	}
 	/**
-     * Метод получения id подразделения {@link Division#id}
-     * @return возвращает id подразделения
+     * РњРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ id РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ {@link Division#id}
+     * @return РІРѕР·РІСЂР°С‰Р°РµС‚ id РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
      */
 	public int getDivID() {
 		return this.id;
 	}
 	/**
-     * Метод получения названия подразделения {@link Division#title}
-     * @return возвращает название
+     * РњРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ РЅР°Р·РІР°РЅРёСЏ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ {@link Division#title}
+     * @return РІРѕР·РІСЂР°С‰Р°РµС‚ РЅР°Р·РІР°РЅРёРµ
      */
 	public String getTitle() {
 		return this.title;
