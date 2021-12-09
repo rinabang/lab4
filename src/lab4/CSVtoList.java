@@ -25,7 +25,9 @@ public class CSVtoList {
 				humans.add(new Human(Integer.parseInt(line[0]), line[1], line[2], new Division(line[4]), Integer.parseInt(line[5]), line[3]));
 			}
 			return humans;
-		} catch (IOException e) { System.err.println("Problem opening file: " + csvFilePath); }
-		return null;
+		} catch (IOException e) { 
+			System.err.println("Problem opening file: " + csvFilePath);
+			throw e;
+			}
 	}
 }
