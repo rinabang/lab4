@@ -1,8 +1,10 @@
 package lab4;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertThrows;
+
 import java.io.IOException;
 
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 class CSVTest {
@@ -11,10 +13,9 @@ class CSVTest {
 	void testRead() throws IOException {
 		CSVtoList csvfile = new CSVtoList();
 		String file = "names.csv";
-	    try {
+	    Throwable thrown = assertThrows(IOException.class, () -> {
 	    	csvfile.read(file);
-	    	} catch (IOException thrown) {
-	    		Assert.assertNotEquals("", thrown.getMessage());
-	    		}
+	    });
+	    assertNotNull(thrown.getMessage());
 	}
 }
